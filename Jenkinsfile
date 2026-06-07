@@ -10,7 +10,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                bat 'docker push abhi754/myweb:v1'
+                bat 'docker push abhi754/my-web:v1'
             }
         }
     }
